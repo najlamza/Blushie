@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blushie Exclusive</title>
+</head>
+<body>
+
+    <!-- Halaman Utama -->
+    <header class="mainPage">
+        <h1 class="brandName">BLUSHIE EXCLUSIVE</h1>
+        <p class="tagline">Berseri   Beralun   Bergaya </p>
+    </header>
+
+    <!-- Koleksi Tudung -->
+    <nav class="collectionMenu">
+        <h3 class="menuItem" data-index="0">BLUSHIE PEONY</h3>
+        <h3 class="menuItem" data-index="1">BLUSHIE KENANGA</h3>
+        <h3 class="menuItem" data-index="2">BLUSHIE CEMPAKA</h3>
+        <h3 class="menuItem" data-index="3">BLUSHIE ORKID</h3>
+        <h3 class="menuItem" data-index="4">BLUSHIE JASMINE</h3>
+    </nav>
+
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="Screenshot 2025-06-10 131259.png" alt="BLUSHIE PEONY" class="sliderImg imejTudung">
+                <div class="sliderInfo">
+                    <h1 class="sliderTitle tajukTudung">BLUSHIE PEONY</h1>
+                    <h2 class="sliderPrice hargaTudung">RM60</h2>
+                    <p class="namaKoleksi">Peony Pinky</p>
+                    <div class="warnaPilihan">
+                        <div class="warna" data-index="0"></div>
+                        <div class="warna" data-index="1"></div>
+                    </div>
+                    <!-- Button untuk beli -->
+<button class="butangBeli" onclick="bukaForm()">BELI SEKARANG!</button>
+
+<!-- Popup Form -->
+<div id="popupForm" class="formContainer">
+    <div class="formBox">
+        <h2>Maklumat Pembelian</h2>
+        <label>Nama:</label>
+        <input type="text" id="nama">
+        
+        <label>Email:</label>
+        <input type="email" id="email">
+        
+        <label>Alamat:</label>
+        <input type="text" id="alamat">
+        
+        <label>Nombor Telefon:</label>
+        <input type="text" id="telefon">
+        
+        <button onclick="hantarForm()">Hantar</button>
+        <button onclick="tutupForm()">Tutup</button>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+<footer class="footer">
+    <p>&copy; 2025 BLUSHIE EXCLUSIVE. Semua hak cipta terpelihara.</p>
+    <p>Direka khas oleh Nanass| <a href="privacy.html">Polisi Privasi</a> | <a href="terms.html">Terma & Syarat</a></p>
+</footer>
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan BLUSHIE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Pesanan Tudung BLUSHIE</h2>
+    <form action="data.php" method="POST">
+        <label>Nama:</label>
+        <input type="text" name="name" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Alamat:</label>
+        <input type="text" name="address" required>
+
+        <label>Nombor Telefon:</label>
+        <input type="text" name="phone" required>
+
+        <button type="submit">Hantar Pesanan</button>
+    </form>
+
+</body>
+</html>

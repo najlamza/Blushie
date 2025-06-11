@@ -1,0 +1,185 @@
+body {
+    background-color: #fce4e4;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* Halaman utama */
+.mainPage {
+    padding: 40px 20px;
+    background-color: #ffb6c1;
+}
+
+.brandName {
+    font-size: 40px;
+    font-weight: bold;
+    color: #5a3c3c;
+}
+
+.tagline {
+    font-size: 18px;
+    color: white;
+}
+
+/* Koleksi */
+.collectionMenu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.menuItem {
+    cursor: pointer;
+    color: #d07070;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.menuItem:hover {
+    color: #b13f74;
+}
+
+/* Slider */
+.sliderItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Tudung Image */
+.sliderImg {
+    max-width: 40%;
+    border-radius: 8px;
+}
+
+/* Info Box */
+.sliderInfo {
+    text-align: left;
+    max-width: 50%;
+}
+
+/* Collection Names */
+.namaKoleksi {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5a3c3c;
+    margin-bottom: 10px;
+}
+
+/* Pilihan warna */
+.warnaPilihan {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.warna {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+/* Efek hover warna */
+.warna:hover {
+    transform: scale(1.1);
+}
+
+/* Butang beli */
+.butangBeli {
+    margin-top: 15px;
+    background-color: #d07070;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.butangBeli:hover {
+    background-color: #b13f74;
+}
+
+.mainPage {
+    width: 100%;
+    height: 300px; /* Atau ubah ikut keperluan */
+    background-image: url('download.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.brandName {
+    font-family: 'Playfair Display', serif; /* Tukar font jika nak lain */
+    font-size: 48px; /* Bagi nampak lebih bold & anggun */
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Bagi ada efek mewah */
+}
+
+.formContainer {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.formBox {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.formBox input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.formBox button {
+    margin: 5px;
+    padding: 8px 16px;
+    background-color: #d07070;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #5a3c3c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #ffb6c1;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
